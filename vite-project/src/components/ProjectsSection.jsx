@@ -28,6 +28,15 @@ const projects = [
     demoUrl: "#",
     githubUrl: "#",
   },
+  {
+    id: 4,
+    title: "Crop Disease Prediction System",
+    description: "Developed a machine learning–based web application to detect tomato crop diseases using image classification. The system allows users to upload leaf images and predicts the disease using a trained CNN model. Built with FastAPI for the backend and React for the frontend, providing real-time predictions to support smart agriculture.",
+    image: "/projects/project4.png",
+    tags: ["Python", "TensorFlow", "CNN", "FastAPI", "React"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Rusiru49/Crop-Disease-Prediction",
+  }
 ];
 
 export const ProjectsSection = () => {
